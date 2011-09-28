@@ -30,9 +30,6 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 # install a Javascript runtime for linux
-if HOST_OS =~ /linux/i
-  gem 'therubyracer', '>= 0.8.2'
-end
 
 gem "haml", ">= 3.1.2"
 gem "haml-rails", ">= 0.3.4", :group => :development
